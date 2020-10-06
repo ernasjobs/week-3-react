@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-
+import Button from './Button';
 class Posts extends Component {
     constructor(props) {
         super(props);
@@ -28,6 +28,7 @@ class Posts extends Component {
             <div className="card-body">
               <p className="card-text">{post.body}</p>
             </div>
+            <Button/>
           </div>
         ))}
       </div>
